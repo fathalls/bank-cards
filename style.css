@@ -1,0 +1,102 @@
+html {
+  line-height: 1.6;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+button {
+  line-height: 1.2;
+  color: #444444;
+}
+
+p{
+  color: #666666;
+}
+
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #efefef;
+  width: 250px;
+  box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.bank{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.bank-name{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-section{
+  display: flex;
+}
+
+button{
+  border-top: 2px solid #efefef;
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  background-color: #e9f3ee;
+  font-weight: bold;
+  font-size: small;
+  color: rgb(114, 112, 112);
+}
+button:hover{
+  background-color: #dbe2de;
+}
+
+.logo{
+  position: absolute;
+  top: 15px;
+  left:0%;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+.content{
+  padding: 20px ;
+  margin-bottom: 20px;
+}
